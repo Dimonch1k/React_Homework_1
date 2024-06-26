@@ -1,38 +1,31 @@
 import React from "react";
 import ProductItem from "./Product-Item";
 
-import toiletPaper from '../../images/toilet-paper.jpeg';
-import sunglasses from '../../images/sunglasses.png';
-import adapter from '../../images/adapter.jpg';
-import washingPowder from '../../images/washing-powder.jpeg';
+import hpPavilion14 from '../../images/hp-pavilion-14.png';
+import asusTufGaming15 from '../../images/asus-tuf-gaming-15.png';
+import acerAspire7 from '../../images/acer-aspire-7.png';
 
 const ProductsList = () => {
   return (
     <div className="product-list">
 
       <ProductItem
-        image={toiletPaper}
-        info="Toilet paper Deluxe"
-        price="200₴"
+        image={hpPavilion14}
+        info="Ноутбук HP Laptop 14"
+        price="26099₴"
         expire={true}
       />
       <ProductItem
-        image={sunglasses}
-        info="Sunglasses Oakley"
-        price="1200₴"
+        image={asusTufGaming15}
+        info="Ноутбук ASUS TUF Gaming A15 (2023)"
+        price="36999₴"
         expire={false}
       />
       <ProductItem
-        image={adapter}
-        info="Adapter Samsung Usb-A to Type-C"
-        price="560₴"
+        image={acerAspire7}
+        info="Ноутбук Acer Aspire 7"
+        price="31999₴"
         expire={true}
-      />
-      <ProductItem
-        image={washingPowder}
-        info="Washing powder Persil"
-        price="850₴"
-        expire={false}
       />
     </div>
   );
